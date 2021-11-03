@@ -1,0 +1,64 @@
+body {
+  font-family: "Irish Grover", cursive;
+ background-color: black;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+}
+#div {
+  display: flex;
+  justify-content: center;
+}
+#btnSearchByName{
+  border: 4px solid rgb(197, 70, 112);
+  border-radius: 10px;
+  width:150px;
+  height: 40px;
+ 
+}
+
+#inputSearch{
+  width: 500px;
+  height: 30px;
+  border: 4px solid rgb(197, 70, 112);
+  border-radius: 10px;
+  justify-content: center;
+
+}
+#myDiv{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+ 
+ 
+}
+.container {
+  width: 350px;
+  height: 470px;
+  margin: 10px;
+  color: white;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.178);
+}
+#image {
+  width: 230px;
+  height: 250px;
+  border: 5px solid white;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+#image:hover{
+  width: 250px;
+  height: 270px;
+  transition: 1.4s;
+
+  
+}
+#imgMovie{
+  width: 100vw;
+  height: 500px;
+  margin-bottom: 50px;
+}
+
